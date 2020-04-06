@@ -1,0 +1,123 @@
+.wp-admin-accordion-body {
+	max-width: 800px;
+	margin: 25px auto;
+}
+.wp-admin-accordion {
+	border: 1px solid #ccd0d4;
+}
+
+.wp-admin-accordion-heading {
+	margin: 0;
+	border-top: 1px solid #ccd0d4;
+	font-size: inherit;
+	line-height: inherit;
+	font-weight: 600;
+	color: inherit;
+}
+
+.wp-admin-accordion-heading:first-child {
+	border-top: none;
+}
+
+.wp-admin-accordion-trigger {
+	background: #fff;
+	border: 0;
+	color: #32373c;
+	cursor: pointer;
+	display: flex;
+	font-weight: 400;
+	margin: 0;
+	padding: 1em 3.5em 1em 1.5em;
+	min-height: 46px;
+	position: relative;
+	text-align: left;
+	width: 100%;
+	align-items: center;
+	justify-content: space-between;
+}
+.wp-admin-accordion-trigger:hover,
+.wp-admin-accordion-trigger:active {
+	background: #f8f9f9;
+}
+
+.wp-admin-accordion-trigger:focus {
+	color: #191e23;
+	border: none;
+	box-shadow: none;
+	outline-offset: -1px;
+	outline: 2px solid #0071a1;
+	background-color: #f8f9f9;
+}
+
+.wp-admin-accordion-trigger .title {
+	pointer-events: none;
+	font-weight: 600;
+	flex-grow: 1;
+}
+
+.wp-admin-accordion-trigger .icon {
+	border: solid #555d66;
+	border-width: 0 2px 2px 0;
+	height: 0.5rem;
+	pointer-events: none;
+	position: absolute;
+	right: 1.5em;
+	top: 50%;
+	transform: translateY(-70%) rotate(45deg);
+	width: 0.5rem;
+}
+
+.wp-admin-accordion-trigger .badge {
+	padding: 0.1rem 0.5rem 0.15rem;
+	color: #32373c;
+	font-weight: 600;
+	margin-left: 0.5rem;
+}
+
+.wp-admin-accordion-trigger .badge.blue {
+	border: 1px solid #bfe7f3;
+}
+
+.wp-admin-accordion-trigger .badge.orange {
+	border: 1px solid #ffb900;
+}
+
+.wp-admin-accordion-trigger .badge.red {
+	border: 1px solid #dc3232;
+}
+
+.wp-admin-accordion-trigger .badge.green {
+	border: 1px solid #46b450;
+}
+
+.wp-admin-accordion-trigger .badge.purple {
+	border: 1px solid #826eb4;
+}
+
+.wp-admin-accordion-trigger .badge.gray {
+	border: 1px solid #ccd0d4;
+}
+
+.wp-admin-accordion-trigger[aria-expanded="true"] .icon {
+	transform: translateY(-30%) rotate(-135deg)
+}
+
+.wp-admin-accordion-panel {
+	margin: 0;
+	padding: 1em 1.5em;
+	background: #fff;
+}
+
+.wp-admin-accordion-panel[hidden] {
+	display: none;
+}
+
+.wp-admin-accordion-panel a .dashicons {
+	text-decoration: none;
+}
+.accordion-panel-table th{
+	text-align: left;
+}
+.wp-admin-accordion-panel .actions {
+	margin-top: 25px;
+}
