@@ -10,7 +10,7 @@ For an example Wordpress accordion that is currently being used by Wordpress, yo
 Tools > Site Health
 ```
 Screenshot of Wordpress Site Health.
-![WP Site Health Example](/master/screenshots/accordion-sample-wp-health.png?raw=true "WP Site Health Example")
+![WP Site Health Example](/screenshots/accordion-sample-wp-health.png?raw=true "WP Site Health Example")
 
 ## STEP 1
 
